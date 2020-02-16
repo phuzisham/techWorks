@@ -9,7 +9,7 @@
 }
 
 #mainNav {
-  min-height: 56px;
+  min-height: 88px;
   background-color: white;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
+  font-family: 'Oswald';
   font-size: 2.3rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
@@ -232,6 +232,10 @@ footer {
   .masthead h1 {
     font-size: 4rem;
     line-height: 4rem;
+  }
+
+  .services-section {
+    min-height: 100vh;
   }
 }
 
