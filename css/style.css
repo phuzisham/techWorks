@@ -28,6 +28,8 @@
   color: var(--tech-black);
   font-weight: 700;
   padding: .9rem 0;
+  font-family: 'Oswald';
+  letter-spacing: 4px;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -109,7 +111,7 @@
   color: var(--tech-nav-link);
 }
 
-.projects-section {
+/* .projects-section {
   padding: 7rem 0;
 }
 
@@ -120,7 +122,7 @@
 .projects-section .project-text {
   padding: 3rem;
   font-size: 90%;
-}
+} */
 
 /* .about-section {
   padding: 7rem 0;
@@ -233,10 +235,6 @@ footer {
     font-size: 4rem;
     line-height: 4rem;
   }
-
-  .services-section {
-    min-height: 100vh;
-  }
 }
 
 @media (min-width: 992px) {
@@ -311,7 +309,11 @@ footer {
     font-size: 1.25rem;
   }
 
-  .projects-section .featured-text {
+  .services-section, .contact-section {
+    min-height: 100vh;
+  }
+
+  /* .projects-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid var(--tech-green);
   }
@@ -324,5 +326,5 @@ footer {
     border-color: var(--tech-green);
     border-width: .25rem;
     width: 30%;
-  }
+  } */
 }
