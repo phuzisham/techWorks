@@ -9,7 +9,6 @@
 }
 
 #mainNav {
-  min-height: 88px;
   background-color: white;
 }
 
@@ -233,10 +232,6 @@ footer {
     font-size: 4rem;
     line-height: 4rem;
   }
-
-  .services-section {
-    min-height: 100vh;
-  }
 }
 
 @media (min-width: 992px) {
@@ -277,7 +272,7 @@ footer {
 
   #mainNav.navbar-shrink .nav-link {
     color: var(--tech-black);
-    padding: 1.5rem 1.5rem 1.25rem;
+    padding: 1.25rem 1.5rem 1rem;
     border-bottom: 0.25rem solid transparent;
   }
 
