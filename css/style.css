@@ -25,8 +25,9 @@
 
 #mainNav .navbar-brand {
   color: var(--tech-black);
-  font-weight: 700;
+  /* font-weight: 700; */
   padding: .9rem 0;
+  font-family: 'Oswald', sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -71,7 +72,7 @@
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
+  font-family: 'Montserrat', sans-serif;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: .15rem;
@@ -146,7 +147,7 @@
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: 'Varela Round';
+  font-family: 'Montserrat', sans-serif;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -164,7 +165,7 @@
 
 .info-section .card h4 {
   font-size: 0.8rem;
-  font-family: 'Varela Round';
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
